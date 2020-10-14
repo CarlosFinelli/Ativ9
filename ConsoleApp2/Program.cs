@@ -45,8 +45,6 @@ namespace ConsoleApp2
             Console.WriteLine("");
             Console.WriteLine("");
             Idade();
-            Console.WriteLine("");
-            Console.WriteLine("");
             Salario();
 
         }
@@ -68,6 +66,8 @@ namespace ConsoleApp2
             Pessoa calculo = new Pessoa();
             String V = calculo.MaisVelho(A.idade, B.idade, A.nome, B.nome);
             Console.WriteLine($"A pessoa mais velha é: {V}");
+            Console.WriteLine("");
+            Console.WriteLine("");
         }
         static void Salario()
         {
