@@ -6,11 +6,9 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Triangulo x, y, area, P;
-            x = new Triangulo();
-            y = new Triangulo();
-            P = new Triangulo();
-            area = new Triangulo();
+            Triangulo x = new Triangulo();
+            Triangulo y = new Triangulo();
+            Triangulo area = new Triangulo();
             Console.Write("Por favor, insira o valor do lado A do triângulo X: ");
             x.A = double.Parse(Console.ReadLine());
             Console.Clear();
@@ -71,10 +69,8 @@ namespace ConsoleApp2
         }
         static void Salario()
         {
-            Salario A, B, Media;
-            A = new Salario();
-            B = new Salario();
-            Media = new Salario();
+            Salario A = new Salario();
+            Salario B = new Salario();
             A.dados = "Dados do primeiro funcionário";
             B.dados = "Dados do segundo funcionário";
             Console.WriteLine(A.dados);
