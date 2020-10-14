@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Olimpiadas\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Olimpiadas\\.nuget\\packages"
+    ]
+  }
+}
